@@ -1,0 +1,88 @@
+body{
+  background-image: url("file:///C:/Users/Administrator/Desktop/Web%20Dev%20Projects/Frontend%20Mentor/Space%20Tourism%20Website/images/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: #0B0D17;
+  color:#FFFFFF;
+}
+
+.main-container-crew{
+  display: flex;
+  justify-content: space-between;
+
+}
+.sub-container1crew{
+    width:60%;
+}
+.sub-container1crew h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  color:#FFFFFF;
+}
+
+.sub-container2crew{
+  width:40%;
+}
+
+.number-span{
+  color:#50535A;
+}
+
+.sub-container1crew h4{
+  color:#919297;
+  font-size:32px;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.sub-container1crew h3{
+  color:#FFFFFF;
+  font-size:56px;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.sub-container1crew p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  width: 430px;
+  line-height: 1.5;
+  color:#D0D6F9;
+  letter-spacing: 2px;
+}
+
+.crewimg{
+  width:24rem;
+  height:32rem;
+  margin-left: 5%;
+}
+
+.dotpagelinks{
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+.dot{
+  height: 0.75rem;
+  width:0.75rem;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #363841;
+  margin-right: 1rem;
+}
+
+.dotselected{
+  height: 0.75rem;
+  width:0.75rem;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFFFFF;
+  margin-right: 1rem;
+}

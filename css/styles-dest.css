@@ -1,0 +1,116 @@
+body{
+  background-image: url("file:///C:/Users/Administrator/Desktop/Web%20Dev%20Projects/Frontend%20Mentor/Space%20Tourism%20Website/images/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: #0B0D17;
+  color:#FFFFFF;
+}
+
+.main-container-dest{
+  display: flex;
+  justify-content: space-between;
+}
+.sub-container1dest h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  color:#FFFFFF;
+}
+
+.sub-container2dest{
+  width:50%;
+}
+
+.destimg{
+  width:21rem;
+  height:21rem;
+  margin-left: 20rem;
+  margin-top: 3.5rem;
+}
+
+.navuldest{
+  list-style: none;
+  padding: 12% 0 2% 15%;
+}
+
+.navuldest li{
+  display: inline-block;
+  padding:10px 0 10px 0;
+  margin-right: 5%;
+
+}
+.navuldest li:hover{
+  border-style: none none inset none;
+  border-width: 0.15rem;
+
+}
+
+.navuldest li a{
+    color:#D0D6F9;
+}
+.navuldest li a:hover{
+    color:#FFFFFF;
+}
+.number-span{
+  color:#50535A;
+}
+
+.sub-container2dest h1{
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+  font-weight: normal;
+  margin-left: 6rem;
+}
+
+.sub-container2dest p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  margin-left: 6rem;
+  margin-top: 0;
+  width: 430px;
+  line-height: 1.5;
+  color:#D0D6F9;
+  letter-spacing: 2px;
+}
+
+.sub-container2dest hr{
+  margin-left: 6rem;
+  margin-top: 2rem;
+  width: 430px;
+  color:#D0D6F9;
+  border-style: inset none none none;
+}
+
+.mini-container1{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6rem;
+  padding-right:10%;
+}
+
+.mini-container1 h6{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  font-size:14px;
+  letter-spacing: 2.35px;
+  padding-top:1rem;
+  width:50%;
+
+}
+
+.mini-container2{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6rem;
+  padding-right:10%;
+}
+
+.mini-container2 h6{
+  font-family: 'Bellefair', serif;
+  font-weight: normal;
+  font-size:28px;
+  padding-top:8px;
+  width:50%;
+}

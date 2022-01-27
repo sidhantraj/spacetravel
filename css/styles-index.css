@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url("../../Space Tourism Website/images/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: #0B0D17;
+  color:#FFFFFF;
+}
+
+
+
+li,a {
+  color:#FFFFFF;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 0;
+  position:relative;
+}
+nav{
+ width:55%;
+}
+
+
+
+.navul{
+  list-style: none;
+  background-color: rgba(11,13,23,0.6);
+  background: linear-gradient(to right,rgba(22,25,36,1),rgba(76,84,102,0.7));
+  padding: 10px 10% 0 10%;
+  margin: 0;
+  text-align: right;
+}
+.navul li{
+  display: inline-block;
+  padding:20px 20px 30px 20px;
+}
+.navul li:hover{
+  border-style: none none inset none;
+  border-width: 0.15rem;
+}
+
+.navitemselected{
+  border-style: none none inset none;
+  border-width: 0.15rem;
+}
+
+.navhr{
+  width:35%;
+  border-style: inset none none none;
+  position:absolute;
+  margin-left: 10rem;
+}
+
+.navicon{
+  margin-left: 40px;
+}
+
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-container1 h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 8rem;
+  color:#D0D6F9;
+}
+
+.sub-container1 h1{
+  font-family: 'Bellefair', serif;
+  font-size: 150px;
+font-weight: normal;
+margin-left: 10rem;
+margin-top: 0.5rem;
+}
+.sub-container1 p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 0;
+  width: 444.609px;
+  line-height: 1.5;
+  color:#D0D6F9;
+  letter-spacing: 2px;
+}
+
+.sub-container2{
+
+  padding: 5rem 2.5rem;
+  background-color:#FFFFFF;
+  color:#0B0D17;
+  border-radius: 50%;
+  margin-right: 10rem;
+  margin-top: 15rem;
+  margin-left: 20rem;
+}
+
+.sub-container2 a{
+    font-family: 'Bellefair', serif;
+    color:#0B0D17;
+    font-size: 24px;
+}
