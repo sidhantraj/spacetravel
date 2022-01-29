@@ -1,0 +1,117 @@
+body{
+  background-image: url("../images/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-color: #0B0D17;
+  color:#FFFFFF;
+}
+
+.main-container-tech{
+  display: flex;
+  justify-content: space-between;
+
+}
+.sub-container1tech{
+    width:60%;
+}
+
+.mini-container-tech{
+  display:flex;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+.mini-con-tech1{
+  display: flex;
+  flex-direction: column;
+  width:12%;
+
+}
+
+.mini-con-tech2 h6{
+  margin-left:5rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  font-size:14px;
+  letter-spacing: 2.35px;
+  color:#D0D6F9;
+}
+.mini-con-tech2 h3{
+  margin-left:5rem;
+  color:#FFFFFF;
+  font-size:56px;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  margin-top: 0.5rem;
+}
+
+.sub-container1tech p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  width: 428px;
+  line-height: 1.5;
+  color:#D0D6F9;
+  letter-spacing: 2px;
+}
+
+.sub-container1tech h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  font-weight: normal;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  color:#FFFFFF;
+}
+
+.sub-container2tech{
+  width:40%;
+  text-align: right;
+}
+
+.number-span{
+  color:#50535A;
+}
+
+
+
+.techimg{
+  width:24rem;
+  height:25rem;
+  margin-top: 6rem;
+}
+
+
+.circle{
+  width: 4.6rem;
+  height:4.6rem;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  font-size:24px;
+  margin-bottom:1.5rem;
+  text-align: center;
+  padding-top:1.5rem;
+}
+
+
+.circleselected{
+  width: 4.6rem;
+  height:4.6rem;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  border-style: solid;
+  color:#0B0D17;
+  font-weight: normal;
+  font-family: 'Bellefair', serif;
+  font-size:24px;
+  margin-bottom:2rem;
+  text-align: center;
+  padding-top:1.5rem;
+}
